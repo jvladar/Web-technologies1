@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("../images/simple-background-backgrounds-passion-simple-1-5c9b95d09002a.png");
+   }
+table{
+    text-align: center;
+    height: 320px; 
+    width: 1000px; 
+    background-color: #ebe9e0; 
+    margin-top: 25px;
+    margin-left: auto; 
+    margin-right: auto; 
+    border: 1px solid #000000;
+    border-spacing: 1px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: "Monument Extended";
+    background: #e3e3e3;
+}
+
+h1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 40px 70px;
+    color: #101010;
+}
+
+
+.pace {
+  pointer-events: none;
+  user-select: none;
+  z-index: 2000;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+  border: 0px;
+  height: 1px;
+  overflow: hidden;
+  background:#1b1b1b;
+}
+
+.pace .pace-progress {
+  box-sizing: border-box;
+  transform: translate3d(0, 0, 0);
+  max-width: 400px;
+  position: fixed;
+  z-index: 2000;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  height: 100%;
+  width: 100%;
+  background: grey;
+}
+
+.pace.pace-inactive {
+  display: none;
+}
+
+#preloader{
+  width:100%;
+  height:100vh;
+  background:#101010;
+  overflow:hidden;
+  position:fixed;
+  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.p {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+table td, tr
+{
+    width: 80px;
+    border: 1px solid burlywood;
+    border-spacing: 1px;
+    padding: 1px;
+}
+.cellPrednaska{
+    background-color: greenyellow;
+}
+.cellCvicenie{
+    background-color: rgb(119, 228, 119);
+}
+.cellTelesna{
+    background-color: aquamarine;
+}
+.legenda{
+    font-family: cursive ;
+}
+h2{
+    text-align: center;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+  }
+  
+.zoznam {
+    margin-top: 5px;
+    margin-left: 35%;
+    margin-right: 5%;
+}
+  
+.titlemenu {
+    display: block;
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:  #333;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+footer {
+  position: absolute;
+  font-size: small;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color:  #333;
+  text-align: center;
+}
+#content{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width:75%;
+}
+ 
+article.lavy{
+    background-color: blanchedalmond;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.400);
+    padding: 5px 5px 5px 5px;
+    margin: 0px 10px;
+    flex:1;
+}
+article.pravy{
+    background-color:burlywood;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.400);
+    padding: 0px 5px 0px 5px;
+    margin: 0px 5px;
+    flex:1;
+}
+article.stredny{
+    background-color: blanchedalmond;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.400);
+    padding: 5px 5px 5px 5px;
+    margin: 0px 10px;
+    flex:1;
+}
+.list{
+    list-style-type:square;
+    margin: 10px 50px 50px 50px;
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.400);
+    background-color: rgb(216, 200, 154);
+}
+.citat{
+        background-color: rgb(216, 200, 154);
+        float: right;
+        box-shadow:5px 5px 5px rgba(0, 0, 0, 0.400);
+        margin-right: 20px;
+        margin-top: 45px;
+        font-size: large;
+        font-style: italic;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        border-top-right-radius: 10px 10px; 
+        border-bottom-right-radius: 10px 10px; 
+        border-bottom-left-radius: 10px 10px;
+        border-top-left-radius: 10px 10px; 
+        max-width:40%; 
+        max-height:40%;
+}
+.zivotopisfoto{
+    margin-left:65px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-right-radius: 70px 70px; 
+    border-bottom-right-radius: 70px 70px; 
+    border-bottom-left-radius: 70px 70px;
+    border-top-left-radius: 70px 70px; 
+    max-width:60%; 
+    max-height:60%;
+}
+.omnefoto{
+    float:left;
+    margin: 40px;
+    display: block;
+    border-top-right-radius: 70px 70px; 
+    border-bottom-right-radius: 70px 70px; 
+    border-bottom-left-radius: 70px 70px;
+    border-top-left-radius: 70px 70px; 
+    max-width:40%; 
+    max-height:40%;
+}
+.nadpis{
+    font-family: "Lucida Console", Courier, monospace; 
+    font-size: x-large;
+    text-align: center;
+    margin: 10px 100px
+}
+.nadpis:hover{
+    color: sienna;
+}
+.btn {
+    font-family: "Lucida Console", Courier, monospace;
+    background-color:  burlywood;
+    color: black;
+    padding: 3px 32px;
+    text-align: center;
+    font-size: large;
+    margin: 5px 120px;
+    opacity: 0.7;
+    transition: 0.3s;
+    border-top-right-radius: 20px 20px; 
+    border-bottom-right-radius: 20px 20px; 
+    border-bottom-left-radius: 20px 20px;
+    border-top-left-radius: 20px 20px;
+  }
+  
+.btn:hover {opacity: 1}
+
+.meno{
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.kategorie {
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    padding: 3px 32px;
+    text-align: center;
+    font-size: large;
+    margin: 5px 20px;
+    border-top-right-radius: 20px 20px; 
+    border-bottom-right-radius: 20px 20px; 
+    border-bottom-left-radius: 20px 20px;
+    border-top-left-radius: 20px 20px;
+  }

@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+background-image: url(./pics/Suunto_logo.png),url(./pics/suunto.jpg);
+background-position: center top;
+background-size: 330px, cover;
+background-repeat: no-repeat, no-repeat;
+background-attachment: fixed, fixed;
+} 
+
+.odsadenie{
+  margin-left: 15px;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+p.validity{
+  margin-bottom: 0px;
+}
+
+.popis{
+  margin: 25px 5px 5px 5px;
+  opacity: initial;
+  font-weight: 500;
+  text-align: center;
+}
+#content{
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+  width:75%;
+}
+
+article{
+  text-align:justify;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+article.lavy{
+  background-color: blanchedalmond;
+  box-shadow:5px 5px 5px rgba(0, 0, 0, 0.400);
+  padding: 5px 8px 5px 8px;
+  margin: 120px 0px 30px 0px ;
+  opacity: 0.7;
+  border-bottom-left-radius: 10px 10px;
+  border-top-left-radius: 10px 10px;
+}
+article.pravy{
+  background-color:burlywood;
+  box-shadow:5px 5px 5px rgba(0, 0, 0, 0.400);
+  opacity: 0.9;
+  padding: 5px 8px 5px 8px;
+  margin: 120px 0px 30px 0px ;
+  border-top-right-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
+}
+
+h2{
+opacity: initial;
+text-align: center;
+color: black;
+padding: 5px;
+right: 0;
+top: 0;
+left: 0;
+margin-top: 0;
+}
+
+footer{
+position: absolute;
+bottom: 0;
+padding: 5px;
+background-color:  #333;
+text-align: center;
+color: white;
+width: 100%;
+font-size: small;
+}
+
+span{
+font-weight: bold;
+color: red;
+}
+
+.hide {
+  display: none;
+}
+
+#Check5{
+  visibility: hidden;
+  margin-left: 0;
+  }
+  
+#Check4:checked + #Check5{
+  visibility: visible;
+}
+

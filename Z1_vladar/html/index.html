@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8">
+    <title>Ján Vladár</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="../pace.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+</head>
+<body>
+<div id="preloader">
+    <div class="p">LOADING</div>
+</div>
+<script>
+
+    paceOptions = {
+    ajax: true,
+    document: true,
+    eventLag: false
+    };
+
+    Pace.on('done', function() {
+    $('.p').delay(500).animate({top: '30%', opacity: '0'}, 3000, $.bez([0.19,1,0.22,1]));
+
+
+    $('#preloader').delay(1500).animate({top: '-100%'}, 2000, $.bez([0.19,1,0.22,1]));
+
+    TweenMax.from(".title", 2, {
+         delay: 1.8,
+              y: 10,
+              opacity: 0,
+              ease: Expo.easeInOut
+        })
+   });
+
+  </script>
+
+    <div id="page-container">
+    <nav>
+        <ul class="menu">
+            <li style="float: left;"><a href="index.html"> <img src="../images/jvlogo.png" alt="index" style="width:80px; height:80px;"></a></li>
+            <li style="float: left;"><a class="titlemenu" href="index.html">O mne</a></li>
+            <li style="float: left;"><a class="titlemenu" href="biography.html">Životopis</a></li>
+            <li style="float: left;"><a class="titlemenu" href="timetable.html">Rozvrh hodín</a></li>
+        </ul>
+        </nav>
+    <section>
+        <div class="title">
+        <h1>O mne</h1>
+        </div>
+        <div id="content">
+            <article class="stredny">
+                <h2 class="nadpis">Kto som ?</h2>
+                <img class="omnefoto" src="../images/omnefoto.jpg" alt="myphoto">
+                <p style="margin-top: 50px; margin-right: 35px; font-size: large;">Volám sa Ján Vladár, mám 22 rokov a pochádzam z Martina. Som študentom 3.ročníka na Fakulte Elektrotechniky a Informatiky v Bratislave kde študujem odbor Aplikovaná Informatika. V Bratislave bývam na internáte Mladosť. Vo voľnom čase rád športujem, od 6 do 17 rokov som hrával hokej za MHC Martin. Od roku 2017 sa venujem vytrvalostným športom - behám po kopcoch a cvičím, čoho kombináciiou sú prekážkové behy Spartan Race, po 5 rokoch pretekania a tréningov sa mi podarilo minulý rok skončil na 3.mieste v kat. do 23 rokov na Majstrovstvách Európy Spartan Race ktoré sa konali v Dolomitoch v Taliansku, o 3 mesiace neskôr som štartoval na Majstrovstvách sveta v Sparte v Grécku kde som sa po 5 hodinovom preteku stal Majster sveta do 23 rokov. V rámci prípravy taktiež dosť bicyklujem a leziem na stene. V prvom rade som však študent STU :) </p>
+                <aside class="citat">
+                    <p style="padding:20px"><b>"Go where you feel most alive"</b></p>
+                    <span >- Kilian Jornet</span>
+                </aside>
+                <p style="margin-top: 70px; margin-right: 35px; font-size: large;">Na strednej škole som študoval zameranie Informatiky na Strdnej Priemyselnej škole v Martine počas ktorej som sa zúčastnil aj Erazmus výmenného pobytu v Birminghame v Anglicku kde sme sa učili programovať v jazyku Python. Neskôr som v jazyku Python robil aj ročníkový projekt ktorý som prezentoval aj na FIIT STU na Pycone. Momentálne sa venujem tvorbe webových backend aplikáci v jazyku Java s použitím frameworku Spring. V škole ma najviac bavia predmety ktoré sa využívajú aj v praxi, čiže napríklad aj tento predmet :)Na strednej škole som študoval zameranie Informatiky na Strdnej Priemyselnej škole v Martine počas ktorej som sa zúčastnil aj Erazmus výmenného pobytu v Birminghame v Anglicku kde sme sa učili programovať v jazyku Python. Neskôr som v jazyku Python robil aj ročníkový projekt ktorý som prezentoval aj na FIIT STU na Pycone. Momentálne sa venujem tvorbe webových backend aplikáci v jazyku Java s použitím frameworku Spring. V škole ma najviac bavia predmety ktoré sa využívajú aj v praxi, čiže napríklad aj tento predmet :)</p>
+                
+                <h2 class="nadpis">Športové úspechy</h2>
+                <ul class="list" >
+                    <li class="zoznam"><b>Majstrovstvá sveta Spartan race U23</b> - 1.miesto</li>
+                    <li class="zoznam"><b>Majstrovstvá Európy Spartan race U23</b> - 3.miesto</li>
+                    <li class="zoznam"><b>Spartan European series 2020</b> - 9.miesto celkovo</li>                   
+                  </ul>
+            </article>
+
+        </div>
+    </section>
+    <footer>
+        <p>Author: Ján Vladár </p>
+        <p>Email: xvladar@stuba.sk</p>
+    </footer>
+</div>
+</body>
+
+</html>

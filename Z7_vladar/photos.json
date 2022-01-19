@@ -1,0 +1,30 @@
+{
+  "photos":
+  [
+    {
+      "src": "images/prvy.jpg",
+      "title": "Vodopády",
+      "description": "Vodopády v Amerike"
+    },
+    {
+      "src": "images/druhy.jpg",
+      "title": "Jazero",
+      "description": "Jazero v lese s búrkou"
+    },
+    {
+      "src": "images/treti.jpg",
+      "title": "Hory",
+      "description": "Jazero v obklopení hôr v Kanade"
+    },      
+    {
+      "src": "images/stvrty.jpg",
+      "title": "Hrebeň hôr",
+      "description": "Sklanatý hrebeň hôr v Tromse"
+    },
+    {
+      "src": "images/piaty.jpeg",
+      "title": "Palmy",
+      "description": "Palmy s jazerom v Afrike"
+    }  
+  ]
+}

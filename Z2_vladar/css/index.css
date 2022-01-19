@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("../image/back.png");
+   }
+.hlavny{
+    font-family: "Lucida Console", Courier, monospace;
+    background-color:  burlywood;
+    color: black;
+    padding: 3px 32px;
+    text-align: center;
+    font-size: x-large;
+}
+h1{
+    margin: 10px 30px;
+}
+h2{
+    text-align: center;
+}
+.legenda{
+    position:absolute; 
+    left: 40%; 
+    top:95%;
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: #111;
+    padding: 3px 32px;
+    text-align: center;
+    list-style-type: none;
+    font-size: medium;
+    overflow: hidden;
+    display: block;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.legenda:hover {
+    background-color:  #333;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+  }
+  
+.zoznam {
+    margin-top: 5px;
+    margin-left: 35%;
+    margin-right: 5%;
+}
+.strbske_pin{
+    position: absolute;
+    width: 25px;
+    height: 35px;
+    left: 27%;
+    top: 60%;
+}
+
+.strbske_pin:hover .strbske_pin_on{
+    visibility: visible;
+}
+
+.strbske_pin_on{
+    display: block;
+    margin-left: 30px;
+    margin-top: -90px;
+    background-color: rgb(155, 190, 204);
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.400);
+    visibility: hidden;
+    border:2px; 
+    border-style: inset;
+    width: 290px;
+    min-height: 100px;
+    text-align: center;
+    border-top-right-radius: 10px 10px; 
+    border-bottom-right-radius: 10px 10px; 
+    border-bottom-left-radius: 10px 10px;
+    border-top-left-radius: 10px 10px; 
+}
+
+.box_photo{
+    border-style: inset;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.400);
+    width: 70%;
+}
+.solisko_pin{
+    position: absolute;
+    width: 25px;
+    height: 35px;
+    left: 18%;
+    top: 18%;
+}
+
+.solisko_pin:hover .solisko_pin_on{
+    visibility: visible;
+}
+
+.solisko_pin_on{
+    display: block;
+    background-color: rgb(155, 190, 204);
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.400);
+    visibility: hidden;
+    width: 280px;
+    border:2px; 
+    border-style: inset;
+    min-height: 100px;
+    text-align: center;
+    border-top-right-radius: 10px 10px; 
+    border-bottom-right-radius: 10px 10px; 
+    border-bottom-left-radius: 10px 10px;
+    border-top-left-radius: 10px 10px; 
+}
+
+.satan_pin{
+    position: absolute;
+    width: 25px;
+    height: 35px;
+    left: 48%;
+    top: 15%;
+}
+
+.satan_pin:hover .satan_pin_on{
+    visibility: visible;
+}
+
+.satan_pin_on{
+    display: block;
+    background-color: rgb(155, 190, 204);
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.400);
+    visibility: hidden;
+    width: 280px;
+    min-height: 100px;
+    border:2px; 
+    border-style: inset;
+    text-align: center;
+    border-top-right-radius: 10px 10px; 
+    border-bottom-right-radius: 10px 10px; 
+    border-bottom-left-radius: 10px 10px;
+    border-top-left-radius: 10px 10px; 
+}
+
+.mostik_pin{
+    position: absolute;
+    width: 25px;
+    height: 35px;
+    left: 5%;
+    top: 26%;
+}
+
+.mostik_pin:hover .mostik_pin_on{
+    visibility: visible;
+}
+
+.mostik_pin_on{
+    display: block;
+    background-color: rgb(155, 190, 204);
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.400);
+    visibility: hidden;
+    width: 280px;
+    border:2px; 
+    border-style: inset;
+    min-height: 100px;
+    text-align: center;
+    border-top-right-radius: 10px 10px; 
+    border-bottom-right-radius: 10px 10px; 
+    border-bottom-left-radius: 10px 10px;
+    border-top-left-radius: 10px 10px; 
+}
+
+.patria_pin{
+    position: absolute;
+    width: 25px;
+    height: 35px;
+    left: 37%;
+    top: 29%;
+}
+
+.patria_pin:hover .patria_pin_on{
+    visibility: visible;
+}
+
+.patria_pin_on{
+    display: block;
+    background-color: rgb(155, 190, 204);
+    box-shadow:5px 5px 5px rgba(0, 0, 0, 0.400);
+    visibility: hidden;
+    width: 280px;
+    min-height: 100px;
+    text-align: center;
+    border:2px; 
+    border-style: inset;
+    border-top-right-radius: 10px 10px; 
+    border-bottom-right-radius: 10px 10px; 
+    border-bottom-left-radius: 10px 10px;
+    border-top-left-radius: 10px 10px; 
+}
+
+#content{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+.strbske{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    
+
+}
+.strbskeImg{
+    border-top-right-radius: 10px 10px; 
+    border-bottom-right-radius: 10px 10px; 
+    border-bottom-left-radius: 10px 10px;
+    border-top-left-radius: 10px 10px; 
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.7);
+}
+.titlemenu {
+    display: block;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:  #333;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+footer {
+  position: absolute;
+  font-size: small;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color:  #333;
+  text-align: center;
+}
+

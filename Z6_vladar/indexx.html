@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>SSE generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="form-group row">
+            <div class="col-sm-3 odsadenie">
+                <input type="checkbox" id="sinus" name="vehicle1" value="Cosinus" onchange="show()"> Cosinus
+                <input type="checkbox" id="cosinus" name="vehicle2" value="Sinus" onchange="show()"> Sinus
+            </div>
+            <div class="col-sm-4 odsadenie">
+                <input type="checkbox"  id="amplitude" name="vehicle1" value="amplitude" onchange="show1()"> Amplitude
+                <input type="checkbox"  id="sliderik" name="vehicle2" value="sliderik" onchange="show1()"> Slider
+                <div id="jeden">
+                    <a-mplitude></a-mplitude>
+                </div>
+                <div id="druhy" >
+                    <s-lider></s-lider>
+                </div>
+            </div>
+            <div class="form-group col-sm-4 odsadenie">
+                <button class="form-control btn btn-primary" id="koniec" onclick="konec()">Koniec</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="graph"></div>
+   
+    <script src="plotly-latest.min.js"></script>
+    <script src="slider.js"></script>
+    <script src="amplitude.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
